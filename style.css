@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatação Escopo */
+.clear{
+    clear: both;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.img-border-1{
+  border: 10px solid red;
+}
+
+.img-border-2{
+  border: 10px solid #FFF;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+
+/* Formatação Menu */
+nav.menu {
+    background-color: #333;
+    height: 50px;
+    position: relative;
+  }
+
+h3.logo{
+    padding-top: 25px;
+    display: inline;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+  
+li.lista-menu{
+    display: inline-block;
+    margin-right: 15px;
+}  
+
+/* Conteudo */
+
+.img-conteudo-1{
+  margin: 5px;
+}
+
+.conteudo{
+  background-color: #FFF;
+  width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.conteudo-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.img-conteudo-1{
+  margin: 5px;
+}
+
+.conteudo-h3{
+  text-align: center;
+}
+
+.conteudo-p{
+  text-align: center;
+
+}
+
+.conteudo-2{
+  padding: 30px;
+}
+
+.conteudo-2 h2{
+  margin: 10px;
+}
+
+.conteudo-direita{
+  float: left;
+  width: 540px;
+  margin: 15px 5px;
+  border: 2px solid #000;
+  border-radius: 5px;
+ 
+}
+
+.conteudo-esquerda{
+  float: right;
+  margin: 15px 5px;
+  width: 580px;
+  padding: 10px;
+  
+}
+
+.conteudo-esquerda h3{
+  text-align: center;
+  margin-top: 50px;;
+  margin-bottom: 15px;
+}
+
+.conteudo-3{
+  padding: 30px;
+  background-color: #2B2B2B;
+}
+
+.conteudo-esquerda-3{
+  float: right;
+  width: 540px;
+  margin: 15px 5px;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+}
+.conteudo-direita-3{
+  float: left;
+  margin: 15px 5px;
+  width: 580px;
+  padding: 10px;
+}
+
+.conteudo-direita-3 h3{
+  text-align: center;
+  margin-top: 50px;;
+  margin-bottom: 15px;
+}
+
+/* Conteúdo Formulário */
+.conteudo-form{
+  background-color: #2B2B2B;
+  padding: 30px;
+  color: #FFF;
+}
+
+label{
+  margin: 5px;
+}
+
+.formulario{
+  margin: 30px;
+}
+
+.item-form{
+  display: inline;
+  margin: 15px;
+}
+
+.conteudo-form input{
+  border-radius: 5px;
+  border-color: #FFF;
+  height: 30px;
+  width: 200px;
+}
+
+.conteudo-form .enviar{
+   background: none;
+   margin-right: 30px;
+   border: 3px solid #FFF;
+   color: #FFF;
+   width: 75px;
+   cursor: pointer;
+ }
+
+.conteudo-form .enviar:hover{
+  background-color: #FFF;
+  border: 3px solid #FFF;
+  color: #000;
+}
+
+/* Conteudo 4 */
+.conteudo-4{
+  background-color: #FFF;
+  padding: 30px;
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.conteudo-4 p{
+  text-align: center;
+}
+
+.item{
+  background-color: #FFF;
+  border: 1px solid #2B2B2B;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 30px;
+}
+
+.item:hover{
+  background-color: #2B2B2B;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 30px;
+  color: #FFF;
+}
+
+.botao{
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 1px solid #000;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.botao:hover{
+  text-align: center;
+  text-decoration: underline;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  color: #2B2B2B;
+}
+
+/* Rodapé */
+.rodape{
+  background-color: #2B2B2B;
+  margin: 5px auto;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #FFF;
+}
+
+li.footer-li{
+  list-style-type: none;
+  margin: 15px;
+}
+
